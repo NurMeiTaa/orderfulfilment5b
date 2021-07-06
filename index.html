@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Laporan Hasil | B5</title>
+	<title>B5 | Order Fulfilment</title>
 	<meta name="description" content="Thoughts, reviews and ideas since 1999." />
 	<link rel="stylesheet" type="text/css" href="assets/css/screen.css" />
 	<link rel="stylesheet" type="text/css"
@@ -39,7 +39,8 @@
 			<div class="wraps">
 				<article class="post">
 					<div class="wrapgriditem">
-						<h2 class="post-title">Deskripsi</h2>
+						<center><h3>Order Fulfilment</h3></center><br>
+						<h3 class="post-title">Deskripsi</h3>
 						<p id="article-lorem" class="article-lorem"></p>
 						<!-- <a href="https://drive.google.com/file/d/14_L22N4PJoFwSZkLbZqA-qOX0032RRq4">Link deskripsi Web</a> -->
 						<a href="javascript:void(0)" id="read-more" onclick="moreDescription()">Lihat lebih banyak</a>
@@ -58,7 +59,7 @@
 					<div class="grid-item">
 						<article class="post">
 							<div class="wrapgriditem">
-									<h2 class="post-title">Fachri M B H</h2>
+									<h2 class="post-title">Fachri M. B. H.</h2>
 									<h4 class="post-title">191524042</h4>
 									<a class="profile" href="#"><img src="assets/img/191524042.jpg" alt="Fachri" /></a>
 							</div>
@@ -67,7 +68,7 @@
 					<div class="grid-item">
 						<article class="post">
 							<div class="wrapgriditem">
-									<h2 class="post-title">Giusty Fadh W</h2>
+									<h2 class="post-title">Giusty Fadh W.</h2>
 									<h4 class="post-title">191524044</h4>
 									<a class="profile" href="#"><img src="assets/img/191524044.jpg" alt="Gius" /></a>
 							</div>
@@ -111,7 +112,7 @@
 		&emsp; Bagian kedua yaitu Carrier Appointment untuk pengurusan data pemesanan. Bagian ini melakukan kegiatan menerima tugas lanjutan purchase order, carrier timeout, persiapan transformasi quote, menyusun pengambilan, menyusun pengiriman, menyusun informasi dokumen purchase order, penyempurnaan perencanaan purchase order (appointment), modifikasi appointment, membuat bill, dan membuat shipment notice. <br>
 		&emsp; Bagian ketiga yaitu Payment (Pembayaran). Bagian ini melakukan kegiatan mengirim invoice, konfirmasi pembayaran, membuat Shipment Remittance Advice, mengeluarkan Shipment Payment Order,  approve shipment payment, dan memproses pembayaran untuk pengiriman. Bagian keempat yaitu Freight in Transit. Bagian ini melakukan kegiatan mengeluarkan Trackpoint Notice, mencatat Trackpoint Order Entry, menangani pertanyaan dari customer, dan membuat Sertifikat Penerimaan. Bagian terakhir yaitu Freight Delivered. Bagian ini melakukan kegiatan Lodge a request for Return Merchandise, Claims Timeout, dan Lodge Loss or Damage Claim Report. <br>
 		&emsp; Hal mengenai proses/sistem skenario Order Fulfilment ini cukup sederhana untuk dibayangkan dalam melakukannya, tetapi cukup kompleks untuk dibuat menjadi suatu aplikasi atau situs web.  Proses/sistem skenario Order Fulfilment ini dapat digambarkan seperti gambar dibawah ini: <br>
-		<img src="assets/img/orderfulfilment.png"/><br>
+		<center><img src="assets/img/orderfulfilment.png"/></center><br>
 		&emsp; Berdasarkan gambar proses model diatas, asumsikan bahwa pesanan yang dibuat tidak lebih dari satu pengiriman dan pesanan dari klien yang berbeda dapat digabungkan menjadi satu pengiriman. Satu paket hanya menempati sebagian kecil dari satu truk pengirim dan dapat sesuai dengan salah satu dari sejumlah ukuran tetap. <br>
 		&emsp; Dimulai dengan tugas pada bagian Ordering, di mana pesanan pembelian dapat dibuat, diubah, disetujui, atau ditolak. Jika pesanan ditolak atau tidak ada konfirmasi atau dikonfirmasi tepat waktu, prosesnya berakhir, jika tidak, bagian logistik akan dimulai dalam tugas bagian Carrier Appointment.<br>
 		&emsp; Bagian Carrier Appointment berkaitan dengan persiapan pengiriman, dengan proses pengiriman, pengambilan, dan berpuncak pada pengambilan barang klien dari Carrier Department. Jika pesanan tidak dapat disiapkan tepat waktu, seluruh proses akan berakhir dan akhirnya pesanan dibatalkan. Namun, jika telah disiapkan, tugas bagian Payment dan bagian Freight in Transit akan dimulai secara paralel. Yang pertama berhubungan dengan pemrosesan pembayaran untuk pengangkutan dan pengapalan. Yang terakhir memungkinkan bagian Order Department untuk mengeluarkan pernyataan status pengiriman, dan menangani pemberitahuan kemajuan pengiriman dari bagian Carrier Department. Tugas berakhir dengan pengiriman barang ke pelanggan<br>
